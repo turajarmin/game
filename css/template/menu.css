@@ -1,0 +1,45 @@
+div.menu{
+    width: 100%;
+    height: 40px;
+    background-color: #4b4b4b;
+}
+div.menu>nav{
+    width: inherit;
+    height: inherit;
+}
+div.menu>nav>ul{
+    width: 80%;
+    height: inherit;
+    margin: 0 auto;
+    list-style:none;
+    text-align: center;
+}
+div.menu>nav>ul>li{
+    display: inline-block;
+    height: inherit;
+    width:auto;
+}
+div.menu>nav>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    padding: 0 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+div.menu>nav>ul>li>a>span{
+    font-size: 16px;
+    color: deeppink;
+    padding: 0 5px;
+}
+div.menu>nav>ul>li>a>span.fa-video{
+    color: blueviolet;
+}
+svg{
+    width: 50px;
+    height: 50px;
+}

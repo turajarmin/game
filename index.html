@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./icon/css/all.min.css">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+        <!-- make website -->
+            <div class="wrapper">
+                <!-- menu website -->
+                    <div class="menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#"><span class="fas fa-home"></span>home</a></li>  
+                                <li><a href="#"><span class="fas fa-book-reader"></span>about</a></li>
+                                <li><a href="#"><span class="fas fa-phone"></span>contact</a></li>
+                                <li><a href="#"><span class="fas fa-image"></span>gallery</a></li>
+                                <li><a href="#"><span class="fas fa-video"></span>video</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                <!--end menu website -->
+                <!-- make slider -->
+                    <div class="slider">
+ <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/war-1.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        
+                        <img src="./images/war-2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        
+                        <img src="./images/war-3.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        
+                        <img src="./images/war-4.jpg" alt="">
+                    </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                                    </div>
+                <!--end make slider -->
+                <!-- make new -->
+                    <div class="news">
+                        <div class="left">
+                            <div class="image">
+                                <img src="./images/war-1.webp" alt="">
+                            </div>
+                            <div class="text">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dolores! Esse cum sequi doloremque rerum beatae tempore alias, id aperiam repellendus ab incidunt adipisci ex! Vero id suscipit omnis impedit!
+                                    Unde ducimus nihil dolorem vitae excepturi repellendus quae quaerat! In molestias porro dignissimos nemo, eos architecto quidem maiores vel voluptatem excepturi sit accusantium velit nulla, odit quis quod! Sint, corporis?
+                                    Minus voluptatum ad, hic quos totam optio alias debitis odio quod? Officiis aliquam minus impedit repellat laudantium enim mollitia nesciunt dicta quam accusantium unde nam beatae magnam error, ipsum facilis.
+                                    Itaque quo expedita labore eveniet et ad fuga? Maxime eius dolor mollitia fuga nisi, ipsa quis quasi! Dolore explicabo dolorum omnis aliquam veniam animi odio. Autem ea saepe veritatis voluptatum!
+                                    Ipsum maiores eos, cum, qui corrupti soluta, eaque totam adipisci asperiores nam a tenetur unde nesciunt! Obcaecati accusantium dignissimos cumque rerum veritatis facilis, sunt ipsum amet. Debitis dolorum excepturi fugit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="left rtl">
+                            <div class="image">
+                                <img src="./images/war-3.webP" alt="">
+                            </div>
+                            <div class="text">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dolores! Esse cum sequi doloremque rerum beatae tempore alias, id aperiam repellendus ab incidunt adipisci ex! Vero id suscipit omnis impedit!
+                                    Unde ducimus nihil dolorem vitae excepturi repellendus quae quaerat! In molestias porro dignissimos nemo, eos architecto quidem maiores vel voluptatem excepturi sit accusantium velit nulla, odit quis quod! Sint, corporis?
+                                    Minus voluptatum ad, hic quos totam optio alias debitis odio quod? Officiis aliquam minus impedit repellat laudantium enim mollitia nesciunt dicta quam accusantium unde nam beatae magnam error, ipsum facilis.
+                                    Itaque quo expedita labore eveniet et ad fuga? Maxime eius dolor mollitia fuga nisi, ipsa quis quasi! Dolore explicabo dolorum omnis aliquam veniam animi odio. Autem ea saepe veritatis voluptatum!
+                                    Ipsum maiores eos, cum, qui corrupti soluta, eaque totam adipisci asperiores nam a tenetur unde nesciunt! Obcaecati accusantium dignissimos cumque rerum veritatis facilis, sunt ipsum amet. Debitis dolorum excepturi fugit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>                
+                <!--end make news -->
+                <!--end make product -->
+                    <div class="products">
+                        <div class="product"><img src="./images/war-1.webp" alt=""></div>
+                        <div class="product"><img src="./images/war-1.webp" alt=""></div>
+                        <div class="product"><img src="./images/war-1.webp" alt=""></div>
+                        <div class="product"><img src="./images/war-1.webp" alt=""></div>
+                    </div>
+                <!--end make product -->
+                <!--end make footer -->
+                <footer>
+                    
+                </footer>
+                <!--end make footer -->
+
+            </div>
+        <!--end make website -->
+       <script src="./node_modules/swiper/swiper-bundle.min.js"></script> 
+        <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 0,
+          centeredSlides: true,
+          autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>

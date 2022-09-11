@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.wrapper{
+    width: 100%;
+}
+@font-face{
+    font-family: FontWebsite;
+    src: url('../fonts/SourceSansPro-Black.ttf');
+}
+body{
+    font-family: FontWebsite;
+}

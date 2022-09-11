@@ -1,0 +1,39 @@
+div.news{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+}
+div.news>div.left{
+    width: inherit;
+    height: 50vh;
+    margin-bottom: 50px ;
+}
+div.news>div.left>div.image{
+    width: 30%;
+    height: inherit;
+    display: inline-block;
+}
+div.news>div.left>div.image>img{
+    width: 100%;
+    height: calc(50vh - 100px);
+    object-fit: cover;
+}
+div.news>div.left>div.text{
+    width: 70%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -4px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+div.news>div.left>div.text>p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: bold;
+}
+div.news>div.rtl{
+    direction: rtl;
+}
